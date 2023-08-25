@@ -92,7 +92,7 @@ const SignupPage = () => {
             <Text style={styles.signUp}>SignUp</Text>
             <Text style={styles.carDetail}>Get Your Car Sparkling Clean</Text>
             <View style={styles.input}>
-              <Userimage />
+              <Userimage style={{top: 7}} />
               <TextInput
                 placeholder="Username"
                 style={styles.textInput}
@@ -101,7 +101,7 @@ const SignupPage = () => {
               />
             </View>
             <View style={styles.input}>
-              <Email />
+              <Email style={{top: 7}} />
               <TextInput
                 placeholder="Email"
                 style={styles.textInput}
@@ -110,7 +110,7 @@ const SignupPage = () => {
               />
             </View>
             <View style={styles.input}>
-              <Password />
+              <Password style={{top: 7}} />
               <TextInput
                 secureTextEntry={!showPassword}
                 placeholder="Password"
@@ -125,7 +125,7 @@ const SignupPage = () => {
               </TouchableOpacity>
             </View>
             <View style={styles.input}>
-              <Password />
+              <Password style={{top: 7}} />
               <TextInput
                 secureTextEntry={!showPassword1}
                 placeholder="Confirm Password"
@@ -352,7 +352,7 @@ const styles = StyleSheet.create({
   input: {
     marginTop: 27,
     flexDirection: 'row',
-    height: 47,
+    height: 55,
     marginHorizontal: 41,
     backgroundColor: Color.White,
     padding: 10,
@@ -362,6 +362,7 @@ const styles = StyleSheet.create({
   textInput: {
     paddingLeft: 20,
     width: '85%',
+    // backgroundColor: 'green',
   },
   checkBox: {
     flex: 1,
