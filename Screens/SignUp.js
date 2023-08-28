@@ -354,7 +354,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     height: 55,
     marginHorizontal: 41,
-    backgroundColor: Color.White,
+    backgroundColor: 'white',
     padding: 10,
     paddingRight: 40,
     borderRadius: 20,
