@@ -94,7 +94,7 @@ const SignupPage = () => {
             <View style={styles.input}>
               <Userimage style={{top: 7}} />
               <TextInput
-                placeholder="Semwal"
+                placeholder="Username"
                 style={styles.textInput}
                 onChangeText={setUserName}
                 value={userName}
